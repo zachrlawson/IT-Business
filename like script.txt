@@ -1,0 +1,1 @@
+!function(){var e=1e3*Math.max(5,parseFloat(prompt("Delay(in seconds) between each like:"))),t=function(){var t=$(".like-icon"),i=0,n=function(){$(t[i]).trigger("click"),i<t.length&&(i++,setTimeout(n,e))};setTimeout(n,500)};setTimeout(t,500)}();
